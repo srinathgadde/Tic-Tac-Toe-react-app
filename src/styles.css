@@ -1,0 +1,21 @@
+/* styles.css */
+
+body {
+  background-color: black;
+  color: white; /* Set text color to white for visibility */
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+  font-family: "Arial", sans-serif; /* Set a default font-family */
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.game-board {
+  margin-bottom: 20px;
+}
